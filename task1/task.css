@@ -1,0 +1,40 @@
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+#errmsg
+{
+    color: red;
+}
+.table table-bordered{
+width:500px;
+color:"blue";
+}
+.bv_validate{
+    color:red;
+    font-size:12px;
+}
+.table{
+    width:50px;
+}
+
+                        
